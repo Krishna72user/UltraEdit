@@ -15,10 +15,10 @@ li{
     margin-right: 100px;
 }
 nav{
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
     background-color: white;
-    /* display: flow-root; */
+    display: flow-root;
 }
 #img{
     height: 85px;
@@ -318,4 +318,8 @@ span{
     font-size: 14px;
     margin-left: 300px;
 }
-
+@media only screen and (max-width:1024px){
+ body{
+    display:none;
+}
+}
